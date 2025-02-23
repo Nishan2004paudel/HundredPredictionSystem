@@ -31,7 +31,7 @@ def check_users():
     return users
 
 # Streamlit app
-st.title('Hundred Win Predictor')
+st.title('Hundred Predictor')
 
 # Initialize session state for login status
 if 'logged_in' not in st.session_state:
