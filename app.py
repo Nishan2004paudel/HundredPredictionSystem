@@ -4,6 +4,9 @@ import pandas as pd
 import pickle
 import hashlib
 from database import add_user, get_user, create_connection
+import streamlit as st
+import sklearn
+st.write("scikit-learn version on server:", sklearn.__version__)
 
 # Function to hash passwords
 def hash_password(password):
